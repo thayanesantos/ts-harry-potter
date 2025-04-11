@@ -1,54 +1,45 @@
-# React + TypeScript + Vite
+# 🪄 Mischief Managed - Harry Potter Character Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dive into the magical world of Harry Potter with this charming web app!  
+Browse characters, filter by house, mark your favorites, and view detailed info — all wrapped in a clean, responsive UI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧙‍♀️ **Character List** — Explore characters from the Harry Potter universe with images, house info, and more.
+- 🏠 **House Filter** — Filter characters by Hogwarts house: Gryffindor, Hufflepuff, Ravenclaw, or Slytherin.
+- ⭐ **Favorites System** — Add and remove your favorite characters.
+- 🧾 **Character Details** — View detailed information about each character.
+- 🧭 **Intuitive Navigation** — Includes a themed navbar and footer inspired by Hogwarts.
+- 🌙 **Responsive Design** — Optimized for desktops and mobile devices.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React** with **TypeScript**
+- **Vite** for fast builds and development
+- **Tailwind CSS** for styling
+- **React Router DOM** for routing
+- **React Context API** for state management (favorites)
+- **Harry Potter API** for character data
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📦 Getting Started
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/harry-potter-app.git
+   cd harry-potter-app
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+Open your browser at: http://localhost:5173
+
+
+🧙‍♂️ About the Project
+This project was built as a technical challenge with a focus on clean architecture, front-end best practices, and a touch of magic 🪄
+
+📃 License
+This project is licensed under the MIT License.
+

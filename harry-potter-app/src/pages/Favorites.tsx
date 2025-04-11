@@ -5,7 +5,7 @@ import { generateId } from "../utils/generateId";
 export default function Favorites() {
   const { favorites } = useFavorites();
   return (
-    <div>
+    <div className="w-full px-4 py-6">
       <h1 className="text-2xl font-bold mb-2">Your Favorite Characters</h1>
 
       {favorites.length === 0 ? (
@@ -21,7 +21,10 @@ export default function Favorites() {
               />
               <h2 className="font-semibold">{character.name}</h2>
               <p className="text-sm text-gray-600">{character.house}</p>
-              <Link to={`/characters/${generateId(character.name)}`} className="text-blue-600 underline">
+              <Link
+                to={`/characters/${generateId(character.name)}`}
+                className="text-blue-600 underline"
+              >
                 View details
               </Link>
             </div>

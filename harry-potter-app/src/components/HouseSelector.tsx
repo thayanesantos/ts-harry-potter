@@ -11,8 +11,7 @@ export default function HouseSelector() {
         <button
           key={house}
           onClick={() => setFavoriteHouse(house)}
-          className={`px-4 py-2 rounded ${favoriteHouse === house ? 'bg-yellow-500 text-white' : 'bg-gray-200'
-            }`}
+          className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
         >
           {house}
         </button>

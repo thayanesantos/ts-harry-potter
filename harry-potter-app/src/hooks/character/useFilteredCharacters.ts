@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-// import { getAllCharacters, getStudents, getStaff } from "@/services/harryPotterAPI";
-// import { generateIdFromName } from "@/utils/generateIdFromName";
 import { getAllCharacters, getStudents, getStaff } from "../../services/harryPotterAPI";
 import { generateId } from "../../utils/generateId";
 import { Character } from "../../types/character";
