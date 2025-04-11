@@ -3,7 +3,7 @@ import { useHouse } from "../hooks/useHouseFavorite";
 const houses = ['Gryffindor', 'Slytherin', 'Hufflepuff', 'Ravenclaw'] as const;
 
 export default function HouseSelector() {
-  const { favoriteHouse, setFavoriteHouse } = useHouse();
+  const { setFavoriteHouse } = useHouse();
 
   return (
     <div className="flex flex-wrap gap-2 mb-4">
