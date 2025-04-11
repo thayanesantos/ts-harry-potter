@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <FavoritesProvider>
       <HouseProvider>
-        <App />
+          <App />
       </HouseProvider>
     </FavoritesProvider>
   </StrictMode>,
