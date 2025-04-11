@@ -19,7 +19,7 @@ export const useFilteredCharacters = (filter: FilterType, favorites: Character[]
         return await getStaff();
       case 'favorites': {
         const allCharacters = await getAllCharacters();
-        return allCharacters.filter((char) =>
+        return allCharacters.filter((char: { name: string; }) =>
           favorites.some((fav) => fav.name === char.name)
         );
       }
