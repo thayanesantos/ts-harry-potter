@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { ghPages } from 'vite-plugin-gh-pages';
 
 export default defineConfig({
-  base: '/ts-harry-potter/',
+  base: 'https://thayanesantos.github.io/ts-harry-potter/',
   plugins: [react(), tailwindcss(), ghPages()],
 });
 
