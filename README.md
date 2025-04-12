@@ -12,6 +12,11 @@ Browse characters, filter by house, mark your favorites, and view detailed info 
 - 🧭 **Intuitive Navigation** — Includes a themed navbar and footer inspired by Hogwarts.
 - 🌙 **Responsive Design** — Optimized for desktops and mobile devices.
 
+## 🧙‍♂️ API
+This project uses the Harry Potter API to fetch character data.
+### https://hp-api.onrender.com/
+Special thanks to the open-source community for making this API available!
+
 ## 🛠️ Technologies Used
 
 - **React** with **TypeScript**
@@ -42,4 +47,3 @@ This project was built as a technical challenge with a focus on clean architectu
 
 📃 License
 This project is licensed under the MIT License.
-
