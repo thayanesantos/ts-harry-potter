@@ -25,22 +25,19 @@ Browse characters, filter by house, mark your favorites, and view detailed info 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/thayanesantos/ts-harry-potter.git
+   git clone https://github.com/your-username/harry-potter-app.git
    cd harry-potter-app
 
-2. Install dependencies:
-   ```bash
-   npm install
 
-3. Start the development server:
-   ```bash
-   npm run dev
+Install dependencies:
+npm install
 
-4. Open your browser at:
-   ```bash
-      http://localhost:5173/ts-harry-potter
+Start the development server:
+npm run dev
+Open your browser at: http://localhost:5173
 
-## 🧙‍♂️ About the Project
+
+🧙‍♂️ About the Project
 This project was built as a technical challenge with a focus on clean architecture, front-end best practices, and a touch of magic 🪄
 
 📃 License
